@@ -1,0 +1,285 @@
+* {
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 16px;
+}
+
+body {font-family: 'Open Sans', sans-serif;}
+
+img {
+	max-width: 100%;
+  	height: auto;
+	padding:0;
+	margin: 0;}
+
+input[type=text], input[type=password]{
+	
+	width: 100%;
+	padding: 12px 20px;
+  	margin:0;
+  	box-sizing: border-box;
+	border: 1px solid black;
+  	border-radius: 8px;
+ 	font-size: 16px;
+ 	
+
+}
+
+input[type=text]:focus, input[type=password]{
+	outline: none;
+	border: 1px solid black;
+}
+
+label {
+	display: block;
+	margin:0;
+	margin-top: 12px;
+	padding-left: 12px;
+	padding-bottom: 8px;
+}
+
+
+button {
+ 
+  border:none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 8px 2px;
+  cursor: pointer;
+  width: 100%;
+  background-color: #3F83BF;
+  border-radius: 8px;
+  margin-top: 16px;
+  
+}
+
+.button a {
+
+
+display: block;
+border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 8px 2px;
+  cursor: pointer;
+  width: 100%;
+  background-color: #3F83BF;
+  border-radius: 8px;
+
+}
+
+.loginbox {
+
+	width: 30%; 
+	margin: 0 auto;
+	 border: none;
+	  padding: 30px;
+	   margin-top: 100px;
+	    border-radius: 0px;
+	     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.regbox {
+
+	width: 70%; 
+	margin: 0 auto;
+	 border: none;
+	  padding: 30px;
+	   margin-top: 100px;
+	    border-radius: 0px;
+	     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.firstpageimg {
+	display: block;
+}
+
+@media screen and (max-width: 600px) {
+  
+.loginbox {
+	width:90%;
+}
+
+.regbox {
+	width:90%;
+}
+
+.registrerat {
+	position: absolute;
+	padding-left: 300px;
+	width: 1px;
+	bottom: 500px;
+}
+
+.firstpageimg {
+	display: none;
+}
+
+}
+
+.container {
+	margin: 0 auto;
+	width: 100%;
+	max-width:1200px;
+}
+
+.nav {
+	display:flex;
+	justify-content:space-between;
+	padding:26px 12px;
+	border-bottom: 2px solid #3F83BF;
+	align-items:center;
+	background-color: #3F83BF ;
+	color:white;
+}
+
+.nav .links a {
+	color: white;
+}
+
+.links a {
+
+	display:inline-block;
+	color:black;
+	text-decoration: none;
+	padding-left: 10px;
+	font-size: 18px;
+
+}
+
+.headline {
+	display: flex;
+	align-items: center;
+	padding-left: 20px;
+	
+}
+
+.links a:hover {
+	color:black;
+}
+
+
+.footer {
+
+margin-top: 200px;
+background-color: #3F83BF;
+
+}
+
+.column-two {
+
+margin-top: 40px;
+display: grid;
+grid-template-columns: 1fr 2fr;
+grid-gap:20px 20px;
+
+}
+
+.grid-four {
+
+	display: grid;
+	grid-template-columns: 1fr auto 2fr 2fr auto auto;
+	grid-gap:8px 12px;
+	padding: 15px;
+	border-radius: 8px;
+	color: #585959;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.book {
+
+	font-size: 40px;
+	padding-bottom: 20px;
+}
+
+.book-left {
+	width: 90%;
+	border-radius: 8px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	padding: 25px;
+}
+
+.underbottom {
+
+	border-bottom: 1px solid black;
+	margin-bottom: 15px;
+	font-weight: bold;
+	font-size: 18px; 
+	color: #2a2b2b;
+
+}
+
+.book-text {
+	padding-bottom: 5px;
+
+}
+
+.lists {
+	border-top: 1px solid black;
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+	border-left: 1px solid black;
+
+}
+
+.list-header {
+
+	border-bottom: 1px solid black;
+	cursor: pointer;
+}
+
+.flex-2 {
+
+	display: flex;
+	justify-content: space-between;
+	padding: 12px;
+}
+
+
+
+.list-nav {
+	display: flex;
+	justify-content: space-around;
+	border-bottom: 1px solid black;
+
+}
+
+.list-nav a {
+	text-decoration: none;
+	display: block;
+	width: 100%;
+	text-align: center;
+	border-left:1px solid black;
+	color:black;
+	margin:12px 0;
+}
+
+.list-nav a:first-child {
+	border-left:none;
+}
+
+.list1 {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	padding: 12px;
+}
+
+@media screen and (max-width: 800px) {
+  	.lists {
+		border-right: none;
+		border-left: none;
+	}
+}

@@ -1,0 +1,118 @@
+.orders{
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+}
+
+.order-head, .order-form, .order-nav, .order-content {
+	border-bottom: 1px solid black;
+}
+
+.order-navbar a {
+	display: block;
+	width: 100%;
+	text-align: center;
+	text-decoration: none;
+	color:inherit;
+	border-right: 1px solid black;
+	font-size: 0.9rem;
+}
+
+.order-navbar a:hover {
+	color:#327fa8;
+}
+
+.order-navbar a:last-child {
+	border-right: none;
+}
+
+.order-content {
+	font-weight: 600;
+	font-size: 0.9rem;
+}
+
+.order-head {
+	font-size: 1.5rem;
+}
+
+.order-content:last-child {
+	border-bottom: none;
+}
+
+.content-margins {
+	padding: 12px;
+}
+
+.rubrik {
+	font-size: 0.8rem;
+	font-weight: 300;
+}
+
+.flex-2 {
+	display: flex;
+	justify-content: space-between;
+}
+
+.flex-3 {
+	display: flex;
+	justify-content: space-around;
+}
+
+.grid-3 {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+.grid-2 {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+.accordion {
+	cursor:pointer;
+	transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: #E1F3F5; 
+}
+
+.panel {
+	display: none;
+	background-color: #E1F3F5;
+}
+
+.btn-order {
+	display: block;
+	padding: 0.5rem 1.2rem;
+	background-color: #327fa8;
+	color:white;
+	text-decoration: none;
+	border:1px solid #327fa8;
+	margin-bottom: 4px;
+	text-align: center;
+	font-size: 0.8rem;
+	font-weight: 300;
+	}
+
+.btn-order:focus {
+	outline: none;
+}
+
+.btn-100 {
+	width:100%;
+	margin: 20px 0;
+}
+
+.btn-danger {
+	background-color: #de0d2d;
+	border:1px solid #de0d2d;
+}
+
+@media screen and (max-width: 800px) {
+  	.orders{
+		border-left: none;
+		border-right: none;
+	}
+}
